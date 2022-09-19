@@ -100,11 +100,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .8);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .icon-round,
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
@@ -677,12 +677,15 @@ a {
 }
 
 p {
+    /* FIX #20 */
     /* font-size: 11px; */
     font-size: 16px;
 }
 
 q {
-    font-size: 16px;
+    /* FIX #21 */
+    color: #575757 !important;
+    font-size: 24px;
 }
 
 .tight-width-whitespace {
@@ -758,7 +761,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, .8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,20 +779,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BA3500;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BA3500;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #C95100!important;
     color: #FFFFFF!important;
 }
 
@@ -802,11 +805,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #BA3500!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #C95100!important;
 }
 
 .icon-dark-slate-blue {
