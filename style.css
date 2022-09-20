@@ -708,6 +708,9 @@ q {
 }
 
 .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -749,6 +752,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
@@ -827,10 +832,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
+    /* background-size: cover; */
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+    /* background-size: cover; */
 }
 
 @media (max-width: 1024px) {
@@ -1034,17 +1041,35 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bg-banniere .bg-presentation {
+        background-size: cover;
+    }
+    .bg-presentation {
+        background-size: cover;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .bg-banniere .bg-presentation {
+        background-size: cover;
+    }
+    .bg-presentation {
+        background-size: cover;
     }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .bg-banniere .bg-presentation {
+        background-size: cover;
+    }
+    .bg-presentation {
+        background-size: cover;
     }
 }
