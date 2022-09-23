@@ -457,7 +457,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: white;
 }
 
 button {
@@ -840,6 +840,20 @@ h4 {
     /* background-size: cover; */
 }
 
+#name:focus, #email:focus, #find-us:focus, #message:focus {
+    background: rgba(255, 176, 176, .3);
+}
+
+.fa-chevron-up {
+    color: #BA3500;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -851,27 +865,6 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
-        max-width: 80%
-    }
-    .nav-center.navbar .nav {
-        max-width: 100%
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
     }
 }
 
@@ -901,6 +894,21 @@ h4 {
         padding: 0 20px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .navbar .nav {
+        max-width: 80%
+    }
+    .nav-center.navbar .nav {
+        max-width: 100%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .b-parallax {
+        background-attachment: scroll;
     }
 }
 
@@ -1046,6 +1054,12 @@ h4 {
     }
     .bg-presentation {
         background-size: cover;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 766px) {
+    .col-xs-12 {
+        padding: 0 20px;
     }
 }
 
