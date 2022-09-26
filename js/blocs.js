@@ -109,7 +109,7 @@ function inViewCheck() {
 }
 
 function scrollToTopView() {
-    $(window).scrollTop() > $(window).height() / 3 ? $(".scrollToTop").hasClass("showScrollTop") || $(".scrollToTop").addClass("showScrollTop") : $(".scrollToTop").removeClass("showScrollTop")
+    $(window).scrollTop() > $(window).height() / 2.5 ? $(".scrollToTop").hasClass("showScrollTop") || $(".scrollToTop").addClass("showScrollTop") : $(".scrollToTop").removeClass("showScrollTop")
 }
 
 function setUpVisibilityToggle() {

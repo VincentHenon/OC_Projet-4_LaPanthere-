@@ -457,7 +457,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: white;
+    background:rgba(255, 255, 255, .8);
 }
 
 button {
